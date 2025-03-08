@@ -1,0 +1,13 @@
+.draggable-recipe {
+    padding: 10px;
+    margin: 5px;
+    background-color: white;
+    border: 1px solid black;
+    cursor: grab;
+    transition: background 0.3s ease;
+  }
+  
+  .draggable-recipe:hover {
+    background-color: #f8f8f8;
+  }
+  

@@ -1,0 +1,26 @@
+.recipe-organizer {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .recipe-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .recipe-card {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: grab;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .recipe-card:active {
+    transform: scale(1.03);
+  }
+  
